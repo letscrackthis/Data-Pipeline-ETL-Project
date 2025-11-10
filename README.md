@@ -1,7 +1,7 @@
 <<<<<<< HEAD
-# YouTube Trending Data Pipeline 🎥
+# YouTube Trending Data Pipeline
 
-An end-to-end data pipeline that extracts, transforms, and visualizes daily trending YouTube videos.
+An End-to-End data pipeline that extracts, transforms, and visualizes daily trending YouTube videos.
 
 ## Features
 - Extract trending data using YouTube Data API
