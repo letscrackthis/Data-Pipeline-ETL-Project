@@ -98,28 +98,6 @@ Step	Task	Description	You Get
 4	Export to CSV	Create a CSV backup per run	Optional for data sharing
 5	Manual Run Support	Run pipeline anytime from terminal	Flexibility and control
 
-
-Project Structure
-youtube_trending_pipeline/
-│
-├── backend/
-│   ├── api.py                # FastAPI backend
-│   ├── extract.py            # Data extraction logic
-│   ├── transform.py          # Data transformation logic
-│   ├── load.py               # Load to SQLite
-│   └── trending_videos.db    # Database file
-│
-├── frontend/
-│   ├── trending-app/
-│   │   ├── src/
-│   │   │   ├── App.js        # Main React app
-│   │   │   ├── components/
-│   │   │   │   └── VideoList.js
-│   │   └── package.json
-│
-└── README.md
-
-
 Results
 
 Successfully automated the ETL workflow.
